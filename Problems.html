@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!-- KaTeX requires the use of the HTML5 doctype. Without it, KaTeX may not render properly -->
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.css" integrity="sha384-BdGj8xC2eZkQaxoQ8nSLefg4AV4/AwB3Fj+8SUSo7pnKP6Eoy18liIKTPn9oBYNG" crossorigin="anonymous">
+
+
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Discrete Math Problems</h1>
+      <div class="pbs">
+        <ul>
+          <li>Prove the following identity: $$\sum_{i=0}^n {n \choose i} = 2^n$$ This is necessary to prove the efficiency of Binomial and Fibonnaci Heap datastructures. </li>
+          <li>
+            Consider a square grid. When the sides have even length, one can fill this grid using rectangular tiles, which are the size of two grid cells joined along a shared edge. Prove or disprove the following: when the square grid has two cells at opposing corners removed, one can fill the grid with rectangular tiles.</li>
+          <li>
+            Prove the following identity, and give an intuitive explanation for why it is true:
+            $$\sum_{k=0}^n {r \choose k} {s \choose n-k } = {r + s \choose n}$$ 
+            This is called Vandermonde's Convolution.
+          </li>
+          <li>
+            Prove that if a prime number $p$ is the sum of two squares, then $p \equiv 1 \mod 4$. Then, prove that if a prime $p$ has $p \equiv 1 \mod 4$, then $p$ is the sum of two squares.
+          </li>
+          <li>
+            A <i>hemisphere cap</i> is a covering that fits over exactly half of a sphere. Prove that any set of caps <i>which covers an entire sphere</i> must contain a subset of $4$ caps that cover the sphere.
+          </li>
+          <li>
+            On the 4th floor, Snell Library has a row of chairs that people can sit in to study. 
+            But no one wants a chair if there is another student in either of the adjacent chairs.
+            Say students enter the library randomly, selecting any of the chairs that have no neighbors with equal likelihood.
+            For a set of $n$ chairs, what is the expected number of chairs that are filled? What fraction of chairs are expected to be filled when $n$ goes to infinity?
+          </li>
+          <li>
+            You have three jars, filled with quantities $a$, $b$, $c$ of water. You are allowed to pour from a more full jug to a less full, and you must always double the amount of water in the smaller jug. So, an example pour could be $(a, b) \to (a-b, 2b)$ if $a > b$. The goal is to empty a jar, ie. pour $(a, b, c) \to (x, y, 0)$.
+
+            - Working with only two of the jars, show that $(a, b) \to (x, 0)$ is only possible if $\frac{a + b}{\gcd(a, b)}$ is a power of two. 
+            - Give an efficient algorithm to empty any set of three jars.
+          </li>
+          <li>
+            Say that a graph has the property that all paths from a node $s$ to a node $t$ contains at least $\frac{\vert V \vert}{2} + 1$ edges. Prove that the graph contains a vertex $v$ so that all paths $s \to t$ contain $v$.
+          </li>
+
+          <li>
+            Prove that for any undirected graph $G$, either $G$ or its complement must be connected.
+          </li>
+
+          <li>
+            (untested) Define a generating function $\rho_t(z)$ whose coefficient on $z^n$ is probability of an event occurring $n$ times in an interval of $t$ time. Using the same ideas as Vandermonde's Convolution, recover the Poisson Distribution by solving the generating function for a closed form. (This will closely track the typical derivation of Poisson, as the binomial distribution with infinite samples).
+          </li>
+
+          <li>
+            For any graph $G$ with $6$ vertices, show that either $G$ or its complement contains a three cycle.
+          </li>
+          <li>
+            Given a set of $n$ items, make a selection of $n$ of them <i>with replacement</i>. What is the expected number of items that are never selected? As $n$ goes to infinity, what fraction of items are never selected?
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      
+    </script>
+
+    <!-- The loading of KaTeX is deferred to speed up page rendering -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/katex.min.js" integrity="sha384-JiKN5O8x9Hhs/UE5cT5AAJqieYlOZbGT3CHws/y97o3ty4R7/O5poG9F3JoiOYw1" crossorigin="anonymous"></script>
+
+    <!-- To automatically render math in text elements, include the auto-render extension: -->
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+        onload='renderMathInElement( document.body, { delimiters: [ {left: "$$", right: "$$", display: true}, {left: "\\[", right: "\\]", display: true}, {left: "$", right: "$", display: false}, {left: "\\(", right: "\\)", display: false} ] } );'></script>
+  </body>
+</html>
