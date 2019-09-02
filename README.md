@@ -10,7 +10,44 @@
 
 # Discrete Math Problems
 
-$x^2$.
+- Prove the following identity: $$\sum_{i=0}^n {n \choose i} = 2^n$$ This is necessary to prove the efficiency of Binomial and Fibonnaci Heap datastructures. 
+- Consider a square grid. When the sides have even length, one can fill this grid using rectangular tiles, which are the size of two grid cells joined along a shared edge. Prove or disprove the following: when the square grid has two cells at opposing corners removed, one can fill the grid with rectangular tiles.
+- Prove the following identity, and give an intuitive explanation for why it is true:
+$$\sum_{k=0}^n {r \choose k} {s \choose n-k } = {r + s \choose n}$$ 
+This is called Vandermonde's Convolution.
+
+- Prove that if a prime number $p$ is the sum of two squares, then $p \equiv 1 \mod 4$. Then, prove that if a prime $p$ has $p \equiv 1 \mod 4$, then $p$ is the sum of two squares.
+
+- A <i>hemisphere cap</i> is a covering that fits over exactly half of a sphere. Prove that any set of caps <i>which covers an entire sphere</i> must contain a subset of $4$ caps that cover the sphere.
+
+- On the 4th floor, Snell Library has a row of chairs that people can sit in to study. 
+But no one wants a chair if there is another student in either of the adjacent chairs.
+Say students enter the library randomly, selecting any of the chairs that have no neighbors with equal likelihood.
+For a set of $n$ chairs, what is the expected number of chairs that are filled? What fraction of chairs are expected to be filled when $n$ goes to infinity?
+
+- You have three jars, filled with quantities $a$, $b$, $c$ of water. You are allowed to pour from a more full jug to a less full, and you must always double the amount of water in the smaller jug. So, an example pour could be $(a, b) \to (a-b, 2b)$ if $a > b$. The goal is to empty a jar, ie. pour $(a, b, c) \to (x, y, 0)$.
+
+- Working with only two of the jars, show that $(a, b) \to (x, 0)$ is only possible if $\frac{a + b}{\gcd(a, b)}$ is a power of two. 
+- Give an efficient algorithm to empty any set of three jars.
+
+- Say that a graph has the property that all paths from a node $s$ to a node $t$ contains at least $\frac{\vert V \vert}{2} + 1$ edges. Prove that the graph contains a vertex $v$ so that all paths $s \to t$ contain $v$.
+
+
+- Prove that for any undirected graph $G$, either $G$ or its complement must be connected.
+
+
+- (untested) Define a generating function $\rho_t(z)$ whose coefficient on $z^n$ is the probability of an event occurring $n$ times in an interval of $t$ time. Using the same ideas as Vandermonde's Convolution, recover the Poisson Distribution by solving the generating function for a closed form. (This will closely track the typical derivation of Poisson, as the binomial distribution with infinite samples).
+
+
+- For any graph $G$ with $6$ vertices, show that either $G$ or its complement contains a three cycle.
+
+- Given a set of $n$ items, make a selection of $n$ of them <i>with replacement</i>. What is the expected number of items that are never selected? As $n$ goes to infinity, what fraction of items are never selected?
+
+- Consider a 2D grid of dots, each marking a different integer coordinate in the plane. Is it possible to construct an equilateral triangle by drawing line segments between pairs of dots?
+
+
+
+
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
