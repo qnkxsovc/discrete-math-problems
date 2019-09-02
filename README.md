@@ -8,9 +8,9 @@
     </style>
 </head>
 
-# Discrete Math Problems
-
-- Prove the following identity: $$\sum_{i=0}^n {n \choose i} = 2^n$$ This is necessary to prove the efficiency of Binomial and Fibonnaci Heap datastructures. 
+- Prove the following identity:
+$$\sum_{i=0}^n {n \choose i} = 2^n$$
+This is necessary to prove the efficiency of Binomial and Fibonnaci Heap datastructures. 
 - Consider a square grid. When the sides have even length, one can fill this grid using rectangular tiles, which are the size of two grid cells joined along a shared edge. Prove or disprove the following: when the square grid has two cells at opposing corners removed, one can fill the grid with rectangular tiles.
 - Prove the following identity, and give an intuitive explanation for why it is true:
 $$\sum_{k=0}^n {r \choose k} {s \choose n-k } = {r + s \choose n}$$ 
@@ -26,9 +26,8 @@ Say students enter the library randomly, selecting any of the chairs that have n
 For a set of $n$ chairs, what is the expected number of chairs that are filled? What fraction of chairs are expected to be filled when $n$ goes to infinity?
 
 - You have three jars, filled with quantities $a$, $b$, $c$ of water. You are allowed to pour from a more full jug to a less full, and you must always double the amount of water in the smaller jug. So, an example pour could be $(a, b) \to (a-b, 2b)$ if $a > b$. The goal is to empty a jar, ie. pour $(a, b, c) \to (x, y, 0)$.
-
-- Working with only two of the jars, show that $(a, b) \to (x, 0)$ is only possible if $\frac{a + b}{\gcd(a, b)}$ is a power of two. 
-- Give an efficient algorithm to empty any set of three jars.
+    - Working with only two of the jars, show that $(a, b) \to (x, 0)$ is only possible if $\frac{a + b}{\gcd(a, b)}$ is a power of two. 
+    - Give an efficient algorithm to empty any set of three jars.
 
 - Say that a graph has the property that all paths from a node $s$ to a node $t$ contains at least $\frac{\vert V \vert}{2} + 1$ edges. Prove that the graph contains a vertex $v$ so that all paths $s \to t$ contain $v$.
 
