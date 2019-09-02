@@ -9,11 +9,11 @@
 </head>
 
 - Prove the following identity:
-$$\sum_{i=0}^n {n \choose i} = 2^n$$
+%%\sum_{i=0}^n {n \choose i} = 2^n%%
 This is necessary to prove the efficiency of Binomial and Fibonnaci Heap datastructures. 
 - Consider a square grid. When the sides have even length, one can fill this grid using rectangular tiles, which are the size of two grid cells joined along a shared edge. Prove or disprove the following: when the square grid has two cells at opposing corners removed, one can fill the grid with rectangular tiles.
 - Prove the following identity, and give an intuitive explanation for why it is true:
-$$\sum_{k=0}^n {r \choose k} {s \choose n-k } = {r + s \choose n}$$ 
+%%\sum_{k=0}^n {r \choose k} {s \choose n-k } = {r + s \choose n}%% 
 This is called Vandermonde's Convolution.
 
 - Prove that if a prime number $p$ is the sum of two squares, then $p \equiv 1 \mod 4$. Then, prove that if a prime $p$ has $p \equiv 1 \mod 4$, then $p$ is the sum of two squares.
@@ -58,5 +58,5 @@ For a set of $n$ chairs, what is the expected number of chairs that are filled? 
 
 <!-- To automatically render math in text elements, include the auto-render extension: -->
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.0/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
-    onload='renderMathInElement( document.body, { delimiters: [ {left: "$$", right: "$$", display: true}, {left: "\\[", right: "\\]", display: true}, {left: "$", right: "$", display: false}, {left: "\\(", right: "\\)", display: false} ] } );'></script>
+    onload='renderMathInElement( document.body, { delimiters: [ {left: "%%", right: "%%", display: true}, {left: "\\[", right: "\\]", display: true}, {left: "$", right: "$", display: false}, {left: "\\(", right: "\\)", display: false} ] } );'></script>
   
